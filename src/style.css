@@ -1,0 +1,70 @@
+*{
+    background-color: crimson;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:normal;
+    font-weight:600;
+    margin: 25px;
+    padding: 10px;
+    border: 10px;
+    
+}
+.container{
+    text-align: center;
+    padding: 20px;
+    border: 25px;
+    margin: 25px;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+button{
+    padding: 12px;
+    margin: 20px ;
+    box-sizing: border-box;
+    border-radius: 15px ;
+    border: 2px solid black;
+    background-color: white;
+}
+div.list{
+    text-align: center;
+}
+ul.listOrder {
+    display: inline-block;
+    text-align: left;
+    
+    
+}
+
+li {
+    list-style-type: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
